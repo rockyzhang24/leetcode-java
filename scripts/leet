@@ -1,0 +1,176 @@
+#!/usr/bin/env bash
+
+# Usage: leet 1 https://leetcode.com/problems/two-sum/ java e
+
+NUM=${1}
+LINK=${2}
+LANG=${3}
+DIFFICULTY=${4}
+
+LEETCODE_URL=https://leetcode.com/problems/
+
+# Extract the question title with hyphen from the url, e.g., two-sum
+QUESTION_TITLE_SLUG=${2#${LEETCODE_URL}}
+QUESTION_TITLE_SLUG=$(echo $QUESTION_TITLE_SLUG | sed 's/\/.*//g')
+
+# Generate the directory name, e.g., 1-Two-Sum
+question_dir=`echo ${QUESTION_TITLE_SLUG} | awk -v num="${NUM}" -F '-' '{printf("%s", num"-"); for (i=1; i<=NF; i++) {printf("%s", toupper(substr($i, 1, 1)) substr($i, 2)); if(i<NF) {printf("%s", "-")}}}'`
+
+root=~/oj/leetcode
+case ${LANG} in
+  sql)
+    lang_path=${root}/database
+    ;;
+  sh)
+    lang_path=${root}/shell
+    ;;
+  *)
+    lang_path=${root}/algorithms/${LANG}
+    ;;
+esac
+question_path=${lang_path}/${question_dir}
+
+# STEP1: Create the directory for this question
+if [[ ! -e ${question_path} ]]; then
+  mkdir -p ${question_path}
+  echo "Created \"${question_path}\" directory!"
+else
+  echo "\"${question_path}\" is already existing!"
+fi
+
+# STEP2: Create the source file
+src_basename=`echo ${QUESTION_TITLE_SLUG} | awk -F '-' '{for (i=1; i<=NF; i++) {printf("%s", toupper(substr($i, 1, 1)) substr($i, 2)) }}'`
+src_filename=${src_basename}.${LANG}
+src_file=${question_path}/${src_filename}
+if [[ ! -e ${src_file} ]]; then
+
+  case ${LANG} in
+
+    java)
+      cat >> ${src_file} <<START
+// Link: ${LINK}
+
+class Solution {
+
+}
+START
+      ;;
+
+    sh)
+      cat >> ${src_file} <<START
+#!/usr/bin/env bash
+
+# Link: ${LINK}
+
+START
+      ;;
+
+  esac
+
+  echo "Created \"${src_file}\" source file!"
+else
+  echo "\"${src_file}\" is already existing!"
+fi
+
+# STEP3: Generate the question list table entry for this question, and then we can paste the entry into the markdown table in README
+# E.g., | 1 | [Two Sum](link to this question) | Easy | [java](link to the java solution file), [cpp](link to the cpp solution file)] |
+
+case ${DIFFICULTY} in
+  e)
+    difficulty='Easy'
+    ;;
+  m)
+    difficulty='Medium'
+    ;;
+  h)
+    difficulty='Hard'
+    ;;
+esac
+
+README_FILE=~/oj/leetcode/README.md
+
+# Generate the question title like "Two Sum"
+QUESTION_TITLE=`echo ${QUESTION_TITLE_SLUG} | sed 's/-/ /g' | awk '{for (i=1; i<=NF; i++) {printf("%s", toupper(substr($i, 1, 1)) substr($i, 2)); if(i<NF) {printf("%s", " ")} }}'`
+
+# Build the entry
+entry="| ${NUM} | [${QUESTION_TITLE}](${LINK}) | ${difficulty} |"
+
+if [[ ${LANG} != "sql" && ${LANG} != "sh" ]]; then
+  # We need to traverse all languages we used to solve this question
+  algo_path=~/oj/leetcode/algorithms
+  for lang_path in ${algo_path}/*; do
+    if [[ -d ${lang_path} ]]; then
+      lang=${lang_path#${algo_path}/}
+      file=${lang_path}/${question_dir}/${src_basename}.${lang}
+      if [[ -e ${file} ]]; then
+        entry="${entry} [${lang}](./algorithms/${lang}/${question_dir}/${src_basename}.${lang})"
+      fi
+    fi
+  done
+  entry="${entry} |"
+elif [[ ${LANG} == "sql" ]]; then
+  entry="${entry} [${LANG}](./database/${question_dir}/${src_filename}) |"
+else
+  entry="${entry} [${LANG}](./shell/${question_dir}/${src_filename}) |"
+fi
+
+function detect_os() {
+  platform='unknown'
+  ostype=`uname`
+  if [[ "$ostype" == 'Linux' ]]; then
+    platform='linux'
+  elif [[ "$ostype" == 'Darwin' ]]; then
+    platform='macos'
+  fi
+  echo ${platform}
+}
+
+platform=`detect_os`
+
+# Copy the entry to clipboard
+if [[ "$platform" == "macos" ]]; then
+  echo ${entry} | pbcopy
+else
+  echo ${entry}
+  read -n 1 -s -r -p  "Please copy the line above & press any key continue to edit README.md"
+fi
+echo "Copied the entry to clipboard!"
+
+while true; do
+  read -p "Do you wish to open README to insert this copied entry (y/n) ? " yn
+  case $yn in
+    [Yy]* ) nvim ${README_FILE}; break;;
+    [Nn]* ) break;;
+    * ) echo "Please answer yes or no.";;
+  esac
+done
+
+while true; do
+  read -p "Do you wish to open vim to solve this problem now (y/n) ? " yn
+  case $yn in
+    [Yy]* ) nvim ${src_file}; break;;
+    [Nn]* ) break;;
+    * ) echo "Please answer yes or no.";;
+  esac
+done
+
+# STEP4: Add and commit to the git repository ~/oj/leetcode
+
+function run_git() {
+  git -C ~/oj/leetcode/ add ${README_FILE} ${src_file}
+  git -C ~/oj/leetcode/ commit -m "New Problem Solution - \"${NUM}. ${QUESTION_TITLE}\""
+}
+
+while true; do
+  read -p "Do you wish to run git add and git commit (y/n) ? " yn
+  case $yn in
+    [Yy]* ) run_git; break;; [Nn]* ) break;;
+    * ) echo "Please answer yes or no.";;
+  esac
+done
+
+echo "Added and committed README and solution src file to the git repository!"
+
+# STEP5: Cheers!
+
+echo "Done!"
