@@ -27,7 +27,9 @@ class Solution {
 }
 
 /*
+ * Time complexity: O(n) where n is max(l1's length, l2's length)
+ * Space complexity: O(n) where is the same above
+ *
  * Notes:
  * After traversing both linked lists, don't forget the last digit should be the carry if it is not zero.
  */
-
