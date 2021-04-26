@@ -51,8 +51,15 @@ if [[ ! -e ${src_file} ]]; then
 // Link: ${LINK}
 
 class Solution {
-
 }
+
+/*
+ * Time complexity: <++>
+ * Space complexity: <++>
+ *
+ * Notes:
+ * <++>
+ */
 START
       ;;
 
@@ -148,7 +155,7 @@ done
 while true; do
   read -p "Do you wish to open vim to solve this problem now (y/n) ? " yn
   case $yn in
-    [Yy]* ) nvim ${src_file}; break;;
+    [Yy]* ) nvim ${src_file} +3; break;;
     [Nn]* ) break;;
     * ) echo "Please answer yes or no.";;
   esac
