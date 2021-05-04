@@ -1,5 +1,6 @@
 // Link: https://leetcode.com/problems/two-sum/
 
+// 0ms, 100%
 class Solution {
   public int[] twoSum(int[] nums, int target) {
     // Each input has exactly one solution --> sanity check is not necessary and nums.length >= 2

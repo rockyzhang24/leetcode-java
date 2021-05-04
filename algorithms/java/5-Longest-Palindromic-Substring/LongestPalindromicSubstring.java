@@ -1,5 +1,6 @@
 // Link: https://leetcode.com/problems/longest-palindromic-substring/
 
+// 24ms, 79.60%
 class Solution {
   public String longestPalindrome(String s) {
     // Record the length and the center index of the longest palindrome so far

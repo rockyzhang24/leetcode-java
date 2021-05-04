@@ -1,5 +1,6 @@
 // Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+// Method1: 4ms, 86.78%
 class Solution {
   public int lengthOfLongestSubstring(String s) {
     int len = s.length();
@@ -25,7 +26,8 @@ class Solution {
   }
 }
 
-// Method2: use an int array instead of a hashmap (runtime drops: 4ms --> 2ms)
+// Method2: 2ms, 99.81%
+// Use an int array instead of a hashmap (runtime drops: 4ms --> 2ms)
 class Solution {
   public int lengthOfLongestSubstring(String s) {
     int len = s.length();
