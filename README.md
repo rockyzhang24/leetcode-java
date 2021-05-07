@@ -10,3 +10,4 @@
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [java](./algorithms/java/6-Zigzag-Conversion/ZigzagConversion.java) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [java](./algorithms/java/7-Reverse-Integer/ReverseInteger.java) |
 | 8 | [String To Integer Atoi](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [java](./algorithms/java/8-String-To-Integer-Atoi/StringToIntegerAtoi.java) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [java](./algorithms/java/9-Palindrome-Number/PalindromeNumber.java) |
