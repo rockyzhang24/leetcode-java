@@ -20,14 +20,13 @@ class Solution {
         break;
       }
       // use two pointers to solve the 2sum problem in a sorted array
-      int target = 0 - nums[i];
       int l = i + 1;
       int r = n - 1;
       while (l < r) {
-        int twoSum = nums[l] + nums[r];
-        if (twoSum > target) {
+        int threeSum = nums[i] + nums[l] + nums[r];
+        if (threeSum > 0) {
           r--;
-        } else if (twoSum < target) {
+        } else if (threeSum < 0) {
           l++;
         } else {
           ans.add(Arrays.asList(nums[i], nums[l++], nums[r--]));
@@ -81,10 +80,9 @@ class Solution {
         break;
       }
       // 2sum probelm using hashset
-      int target = 0 - nums[i];
       Set<Integer> set = new HashSet<>();
       for (int j = i + 1; j < n; ++j) {
-        int another = target - nums[j];
+        int another = 0 - nums[i] - nums[j];
         if (set.contains(another)) {
           ans.add(Arrays.asList(nums[i], another, nums[j]));
           // skip the duplicates
