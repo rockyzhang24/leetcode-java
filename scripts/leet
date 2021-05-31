@@ -167,17 +167,17 @@ done
 function run_git() {
   git -C ~/oj/leetcode/ add ${README_FILE} ${src_file}
   git -C ~/oj/leetcode/ commit -m "New Problem Solution - \"${NUM}. ${QUESTION_TITLE}\""
+  echo "Added and committed README and solution src file to the git repository!"
 }
 
 while true; do
   read -p "Do you wish to run git add and git commit (y/n) ? " yn
   case $yn in
-    [Yy]* ) run_git; break;; [Nn]* ) break;;
+    [Yy]* ) run_git; break;;
+    [Nn]* ) break;;
     * ) echo "Please answer yes or no.";;
   esac
 done
-
-echo "Added and committed README and solution src file to the git repository!"
 
 # STEP5: Cheers!
 
