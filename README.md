@@ -22,3 +22,4 @@
 | 18 | [4sum](https://leetcode.com/problems/4sum/) | Medium | [java](./algorithms/java/18-4sum/4sum.java) |
 | 19 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [java](./algorithms/java/19-Remove-Nth-Node-From-End-Of-List/RemoveNthNodeFromEndOfList.java) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [java](./algorithms/java/20-Valid-Parentheses/ValidParentheses.java) |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [java](./algorithms/java/21-Merge-Two-Sorted-Lists/MergeTwoSortedLists.java) |
