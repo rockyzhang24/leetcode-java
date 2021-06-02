@@ -26,3 +26,4 @@
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [java](./algorithms/java/22-Generate-Parentheses/GenerateParentheses.java) |
 | 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [java](./algorithms/java/23-Merge-K-Sorted-Lists/MergeKSortedLists.java) |
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [java](./algorithms/java/24-Swap-Nodes-In-Pairs/SwapNodesInPairs.java) |
+| 25 | [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [java](./algorithms/java/25-Reverse-Nodes-In-K-Group/ReverseNodesInKGroup.java) |
