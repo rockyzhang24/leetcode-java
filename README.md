@@ -28,3 +28,4 @@
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [java](./algorithms/java/24-Swap-Nodes-In-Pairs/SwapNodesInPairs.java) |
 | 25 | [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [java](./algorithms/java/25-Reverse-Nodes-In-K-Group/ReverseNodesInKGroup.java) |
 | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [java](./algorithms/java/26-Remove-Duplicates-From-Sorted-Array/RemoveDuplicatesFromSortedArray.java) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [java](./algorithms/java/27-Remove-Element/RemoveElement.java) |

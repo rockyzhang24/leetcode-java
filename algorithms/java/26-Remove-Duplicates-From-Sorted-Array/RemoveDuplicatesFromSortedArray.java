@@ -6,9 +6,8 @@ class Solution {
     if (nums == null || nums.length <= 1) {
       return nums == null ? 0 : nums.length;
     }
-    int n = nums.length;
     int slow = 0;
-    for (int fast = 1; fast < n; ++fast) {
+    for (int fast = 1; fast < nums.length; ++fast) {
       if (nums[slow] != nums[fast]) {
         nums[++slow] = nums[fast];
       }
