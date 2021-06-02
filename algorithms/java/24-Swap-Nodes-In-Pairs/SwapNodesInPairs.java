@@ -1,5 +1,6 @@
 // Link: https://leetcode.com/problems/swap-nodes-in-pairs/
 
+// Method1: Iteration
 // 0ms, 100%
 class Solution {
   public ListNode swapPairs(ListNode head) {
@@ -63,3 +64,28 @@ class Solution {
  *             prev  cur       next
  *
  */
+
+
+// Method2: recursion
+// 0ms, 100%
+class Solution {
+  public ListNode swapPairs(ListNode head) {
+    if (head == null || head.next == null) {
+      return head;
+    }
+    ListNode newHead = head.next;
+    head.next = swapPairs(head.next.next);
+    newHead.next = head;
+    return newHead;
+  }
+}
+
+/*
+ * Time complexity: O(n)
+ *
+ * Space complexity: O(n) for the recursion stack
+ *
+ * Notes:
+ *
+ */
+
