@@ -4,7 +4,7 @@
 class Solution {
   public int removeDuplicates(int[] nums) {
     if (nums == null || nums.length <= 1) {
-      return nums.length;
+      return nums == null ? 0 : nums.length;
     }
     int n = nums.length;
     int slow = 0;
