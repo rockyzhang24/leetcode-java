@@ -32,3 +32,4 @@
 | 28 | [Implement Strstr](https://leetcode.com/problems/implement-strstr/) | Easy | [java](./algorithms/java/28-Implement-Strstr/ImplementStrstr.java) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [java](./algorithms/java/29-Divide-Two-Integers/DivideTwoIntegers.java) |
 | 30 | [Substring With Concatenation Of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Hard | [java](./algorithms/java/30-Substring-With-Concatenation-Of-All-Words/SubstringWithConcatenationOfAllWords.java) |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [java](./algorithms/java/31-Next-Permutation/NextPermutation.java) |
