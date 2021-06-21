@@ -137,7 +137,7 @@ platform=`detect_os`
 
 # Copy the entry to clipboard
 if [[ "$platform" == "macos" ]]; then
-  echo ${entry} | pbcopy
+  echo ${entry} | tr -d '\n' | pbcopy
 else
   echo ${entry}
   read -n 1 -s -r -p  "Please copy the line above & press any key continue to edit README.md"
