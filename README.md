@@ -34,3 +34,4 @@
 | 30 | [Substring With Concatenation Of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Hard | [java](./algorithms/java/30-Substring-With-Concatenation-Of-All-Words/SubstringWithConcatenationOfAllWords.java) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [java](./algorithms/java/31-Next-Permutation/NextPermutation.java) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [java](./algorithms/java/32-Longest-Valid-Parentheses/LongestValidParentheses.java) |
+| 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [java](./algorithms/java/33-Search-In-Rotated-Sorted-Array/SearchInRotatedSortedArray.java) |
