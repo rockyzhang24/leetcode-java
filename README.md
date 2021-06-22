@@ -37,3 +37,4 @@
 | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [java](./algorithms/java/33-Search-In-Rotated-Sorted-Array/SearchInRotatedSortedArray.java) |
 | 34 | [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [java](./algorithms/java/34-Find-First-And-Last-Position-Of-Element-In-Sorted-Array/FindFirstAndLastPositionOfElementInSortedArray.java) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [java](./algorithms/java/35-Search-Insert-Position/SearchInsertPosition.java) |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [java](./algorithms/java/36-Valid-Sudoku/ValidSudoku.java) |
