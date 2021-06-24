@@ -39,3 +39,4 @@
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [java](./algorithms/java/35-Search-Insert-Position/SearchInsertPosition.java) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [java](./algorithms/java/36-Valid-Sudoku/ValidSudoku.java) |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | [java](./algorithms/java/37-Sudoku-Solver/SudokuSolver.java) |
+| 38 | [Count And Say](https://leetcode.com/problems/count-and-say/) | Medium | [java](./algorithms/java/38-Count-And-Say/CountAndSay.java) |
