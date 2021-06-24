@@ -38,3 +38,4 @@
 | 34 | [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [java](./algorithms/java/34-Find-First-And-Last-Position-Of-Element-In-Sorted-Array/FindFirstAndLastPositionOfElementInSortedArray.java) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [java](./algorithms/java/35-Search-Insert-Position/SearchInsertPosition.java) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [java](./algorithms/java/36-Valid-Sudoku/ValidSudoku.java) |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | [java](./algorithms/java/37-Sudoku-Solver/SudokuSolver.java) |
