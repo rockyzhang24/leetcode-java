@@ -1,5 +1,6 @@
 // Link: https://leetcode.com/problems/first-missing-positive/
 
+// 1ms, 85.86%
 class Solution {
   public int firstMissingPositive(int[] nums) {
     for (int i = 0; i < nums.length; ++i) {
