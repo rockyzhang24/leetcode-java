@@ -43,3 +43,4 @@
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [java](./algorithms/java/39-Combination-Sum/CombinationSum.java) |
 | 40 | [Combination Sum Ii](https://leetcode.com/problems/combination-sum-ii/) | Medium | [java](./algorithms/java/40-Combination-Sum-Ii/CombinationSumIi.java) |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [java](./algorithms/java/41-First-Missing-Positive/FirstMissingPositive.java) |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [java](./algorithms/java/42-Trapping-Rain-Water/TrappingRainWater.java) |
