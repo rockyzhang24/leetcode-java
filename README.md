@@ -45,3 +45,4 @@
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [java](./algorithms/java/41-First-Missing-Positive/FirstMissingPositive.java) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [java](./algorithms/java/42-Trapping-Rain-Water/TrappingRainWater.java) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [java](./algorithms/java/43-Multiply-Strings/MultiplyStrings.java) |
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [java](./algorithms/java/44-Wildcard-Matching/WildcardMatching.java) |
