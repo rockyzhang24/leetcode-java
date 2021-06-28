@@ -50,16 +50,19 @@ if [[ ! -e ${src_file} ]]; then
       cat >> ${src_file} <<START
 // Link: ${LINK}
 
+/*
+ *
+ */
 class Solution {
 }
 
 /*
- * Time complexity: <++>
+ * Time complexity:
  *
- * Space complexity: <++>
+ * Space complexity:
  *
  * Notes:
- * <++>
+ *
  */
 START
       ;;
