@@ -6,7 +6,7 @@
  * For each position pos in nums, i.e., pos is [0, len-1], we try each number that has not been
  * used yet.
  * For example, nums=[1,2,3,4], at index 0, we can try 1, 2, 3, 4, say this time we try
- * 2, then at index 1, we can try 1, 3, 4, and so on.
+ * 2 (1,3,4 remaining), then at index 1, we can try 1, 3, 4, and so on.
  */
 class Solution {
   public List<List<Integer>> permute(int[] nums) {
@@ -70,6 +70,11 @@ class Solution {
 /*
  * Method2: DFS - use swap to avoid visited-checking
  * 0ms, 100%
+ * swap(pos, i) where i is [pos, n-1], it means we try different numbers at position pos.
+ * For example, nums=[1, 2, 3]
+ * When pos=0, we swap(0,0), swap(0,1), swap(0,2), i.e., we try 1, 2, 3 at position 0.
+ * After this, we have finished position 0, next we will try position 1. After swap(0,0),
+ * 2,3 are remaining for position 1, so swap(1,1) and swap(1,2) will fulfill this.
  */
 class Solution {
   public List<List<Integer>> permute(int[] nums) {
