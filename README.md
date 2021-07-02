@@ -48,3 +48,4 @@
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [java](./algorithms/java/44-Wildcard-Matching/WildcardMatching.java) |
 | 45 | [Jump Game Ii](https://leetcode.com/problems/jump-game-ii/) | Medium | [java](./algorithms/java/45-Jump-Game-Ii/JumpGameIi.java) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [java](./algorithms/java/46-Permutations/Permutations.java) |
+| 47 | [Permutations Ii](https://leetcode.com/problems/permutations-ii/) | Medium | [java](./algorithms/java/47-Permutations-Ii/PermutationsIi.java) |
