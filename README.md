@@ -49,3 +49,4 @@
 | 45 | [Jump Game Ii](https://leetcode.com/problems/jump-game-ii/) | Medium | [java](./algorithms/java/45-Jump-Game-Ii/JumpGameIi.java) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [java](./algorithms/java/46-Permutations/Permutations.java) |
 | 47 | [Permutations Ii](https://leetcode.com/problems/permutations-ii/) | Medium | [java](./algorithms/java/47-Permutations-Ii/PermutationsIi.java) |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/solution/) | Medium | [java](./algorithms/java/48-Rotate-Image/RotateImage.java) |
