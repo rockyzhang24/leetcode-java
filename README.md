@@ -51,3 +51,4 @@
 | 47 | [Permutations Ii](https://leetcode.com/problems/permutations-ii/) | Medium | [java](./algorithms/java/47-Permutations-Ii/PermutationsIi.java) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/solution/) | Medium | [java](./algorithms/java/48-Rotate-Image/RotateImage.java) |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [java](./algorithms/java/49-Group-Anagrams/GroupAnagrams.java) |
+| 50 | [Powx N](https://leetcode.com/problems/powx-n/) | Medium | [java](./algorithms/java/50-Powx-N/PowxN.java) |
