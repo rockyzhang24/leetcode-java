@@ -55,3 +55,4 @@
 | 51 | [N Queens](https://leetcode.com/problems/n-queens/) | Hard | [java](./algorithms/java/51-N-Queens/NQueens.java) |
 | 52 | [N Queens Ii](https://leetcode.com/problems/n-queens-ii/) | Hard | [java](./algorithms/java/52-N-Queens-Ii/NQueensIi.java) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [java](./algorithms/java/53-Maximum-Subarray/MaximumSubarray.java) |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [java](./algorithms/java/54-Spiral-Matrix/SpiralMatrix.java) |
