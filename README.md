@@ -57,3 +57,4 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [java](./algorithms/java/53-Maximum-Subarray/MaximumSubarray.java) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [java](./algorithms/java/54-Spiral-Matrix/SpiralMatrix.java) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [java](./algorithms/java/55-Jump-Game/JumpGame.java) |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [java](./algorithms/java/56-Merge-Intervals/MergeIntervals.java) |
