@@ -59,3 +59,4 @@
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [java](./algorithms/java/55-Jump-Game/JumpGame.java) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [java](./algorithms/java/56-Merge-Intervals/MergeIntervals.java) |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [java](./algorithms/java/57-Insert-Interval/InsertInterval.java) |
+| 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | [java](./algorithms/java/58-Length-Of-Last-Word/LengthOfLastWord.java) |
