@@ -58,3 +58,4 @@
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [java](./algorithms/java/54-Spiral-Matrix/SpiralMatrix.java) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [java](./algorithms/java/55-Jump-Game/JumpGame.java) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [java](./algorithms/java/56-Merge-Intervals/MergeIntervals.java) |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [java](./algorithms/java/57-Insert-Interval/InsertInterval.java) |
