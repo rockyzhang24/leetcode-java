@@ -56,7 +56,7 @@ class Solution {
  * So the time complexity is O(n*n!).
  *
  * I also posted a detailed explanation here:
- * https://leetcode.com/problems/permutations/discuss/1308076/Detailed-explanation-about-why-the-time-complexity-is-O(n*n!)
+ * https://leetcode.com/problems/permutations/discuss/1308076/detailed-explanation-about-why-the-time-complexity-is-onn
  *
  * Space complexity: O(n)
  * The space for the recursion stack is O(n). The space for the visited array is O(n) as well. So
@@ -117,7 +117,9 @@ class Solution {
 
 /*
  * Time complexity: O(n!), n is the length of nums.
- * The analysis is the same with the modthod above because the recursion tree structure is the same
+ * See https://leetcode.com/problems/permutations/discuss/1308076/detailed-explanation-about-why-the-time-complexity-is-onn
+ * The recursion tree is the same with method-1. However, in each node, the number of execution of the for-loop is not
+ * contant n, but n-pos which is decreasing level by level.
  *
  * Space complexity: O(n) for the recursion stack
  *
