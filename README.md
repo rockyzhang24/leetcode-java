@@ -62,3 +62,4 @@
 | 58 | [Length Of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | [java](./algorithms/java/58-Length-Of-Last-Word/LengthOfLastWord.java) |
 | 59 | [Spiral Matrix Ii](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [java](./algorithms/java/59-Spiral-Matrix-Ii/SpiralMatrixIi.java) |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | Hard | [java](./algorithms/java/60-Permutation-Sequence/PermutationSequence.java) |
+| 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | [java](./algorithms/java/61-Rotate-List/RotateList.java) |
