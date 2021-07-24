@@ -64,3 +64,4 @@
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | Hard | [java](./algorithms/java/60-Permutation-Sequence/PermutationSequence.java) |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | [java](./algorithms/java/61-Rotate-List/RotateList.java) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [java](./algorithms/java/62-Unique-Paths/UniquePaths.java) |
+| 63 | [Unique Paths Ii](https://leetcode.com/problems/unique-paths-ii/) | Medium | [java](./algorithms/java/63-Unique-Paths-Ii/UniquePathsIi.java) |
