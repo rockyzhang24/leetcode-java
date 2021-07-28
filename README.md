@@ -68,3 +68,4 @@
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [java](./algorithms/java/64-Minimum-Path-Sum/MinimumPathSum.java) |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | Hard | [java](./algorithms/java/65-Valid-Number/ValidNumber.java) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [java](./algorithms/java/66-Plus-One/PlusOne.java) |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [java](./algorithms/java/67-Add-Binary/AddBinary.java) |
