@@ -26,7 +26,7 @@ class Solution {
       return ans;
     }
     // Find the last occurrence, i.e., the end of the range
-    // Trick: we don't have to reset the left back to 0.
+    // TRICK: we don't have to reset the left back to 0.
     right = nums.length - 1;
     while (left <= right) {
       int mid = left + (right - left) / 2;
@@ -53,11 +53,11 @@ class Solution {
  * These two cases share the same code template. The difference is how to move left or right
  * when nums[mid] is equal to target.
  *
- * - First occurrence: when nums[mid] == target, we move right, i.e., right = mid - 1. At
- * the end, we should check whether the target exists (by checking whether left go beyond the
- * bound or nums[left] is equal to target). If it exists, left will be the first occurrence.
+ * - First occurrence: when nums[mid] == target, we move right, i.e., right = mid - 1. After
+ * iteration, nums[left] will be the first occurrence of the target. If nums[left] is not equal
+ * to target, it means target is not in the array.
  *
- * - Last occurrence: when nums[mid] == target, we move left, i.e., left = mid + 1. At the
- * end, we check whether the target exists (by checking whether right go beyond the bound or
- * nums[right] is equal to target). If it exists, right will be the last occurrence.
+ * - Last occurrence: when nums[mid] == target, we move left, i.e., left = mid + 1. After
+ * iteration, nums[right] will be the last occurrence of the target. If nums[right] is not equal
+ * to target, it means target is not in the array.
  */

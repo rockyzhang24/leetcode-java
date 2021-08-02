@@ -40,7 +40,7 @@ class Solution {
  * 2) newInterval doesn't overlap any interval and it is at the end, e.g., [[1,3]], [5,8]
  *
  * We we update the start-time and end-time, we should handle these two corner cases. The
- * end-time is handled automatically in the for-loop (line 22). For the start-time, we update
- * it only if i<n (line 26).
+ * end-time is handled automatically in the for-loop (line 21). For the start-time, we update
+ * it only if i<n (line 17).
  *
  */
