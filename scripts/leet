@@ -30,6 +30,19 @@ case ${LANG} in
 esac
 question_path=${lang_path}/${question_dir}
 
+# Get the difficulty
+case ${DIFFICULTY} in
+  e)
+    difficulty='Easy'
+    ;;
+  m)
+    difficulty='Medium'
+    ;;
+  h)
+    difficulty='Hard'
+    ;;
+esac
+
 # STEP1: Create the directory for this question
 if [[ ! -e ${question_path} ]]; then
   mkdir -p ${question_path}
@@ -49,6 +62,7 @@ if [[ ! -e ${src_file} ]]; then
     java)
       cat >> ${src_file} <<START
 // Link: ${LINK}
+// Difficulty: ${difficulty}
 
 /*
  *
@@ -72,6 +86,7 @@ START
 #!/usr/bin/env bash
 
 # Link: ${LINK}
+# Difficulty: ${difficulty}
 
 START
       ;;
@@ -85,18 +100,6 @@ fi
 
 # STEP3: Generate the question list table entry for this question, and then we can paste the entry into the markdown table in README
 # E.g., | 1 | [Two Sum](link to this question) | Easy | [java](link to the java solution file), [cpp](link to the cpp solution file)] |
-
-case ${DIFFICULTY} in
-  e)
-    difficulty='Easy'
-    ;;
-  m)
-    difficulty='Medium'
-    ;;
-  h)
-    difficulty='Hard'
-    ;;
-esac
 
 README_FILE=~/oj/leetcode/README.md
 
