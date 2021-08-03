@@ -50,7 +50,7 @@ class Solution {
  * Method2: Recursion
  * 0ms, 100%
  *
- * Basic idea: to calculate x^n, we just need to calculate x^(1/2), and x^n = x^(1/2) * x^(1/2)
+ * Basic idea: to calculate x^n, we just need to calculate x^(n/2), and x^n = x^(n/2) * x^(n/2)
  */
 class Solution {
   public double myPow(double x, int n) {
@@ -85,11 +85,7 @@ class Solution {
 
 /*
  * Method3: Iteration
- * 1ms, 34.22%
- *
- * Take x^31 as an example, x^31 means multiply x 31 times. It is equal to multiply x^2 15 times, then multiply x.
- * It is also equal to multiply (x^2 * x^2) 7 times, then multiply x^2, and so on. So when the power is odd, while
- * doubling, we should add the extra to the answer, i.e., x, x^2, ...,
+ * 0ms, 100%
  *
  */
 class Solution {
@@ -99,12 +95,12 @@ class Solution {
       remaining = n == Integer.MIN_VALUE ? Integer.MAX_VALUE : -n;
     }
     double ans = 1;
-    double prod = x;
+    double base = x;
     while (remaining > 0) {
       if (remaining % 2 == 1) {
-        ans *= prod;
+        ans *= base;
       }
-      prod *= prod;
+      base *= base;
       remaining /= 2;
     }
     if (n < 0) {
@@ -113,7 +109,6 @@ class Solution {
     return ans;
   }
 }
-
 /*
  * Time complexity: O(logn)
  *
