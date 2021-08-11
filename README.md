@@ -71,3 +71,4 @@
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [java](./algorithms/java/67-Add-Binary/AddBinary.java) |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | Hard | [java](./algorithms/java/68-Text-Justification/TextJustification.java) |
 | 69 | [Sqrtx](https://leetcode.com/problems/sqrtx/) | Easy | [java](./algorithms/java/69-Sqrtx/Sqrtx.java) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [java](./algorithms/java/70-Climbing-Stairs/ClimbingStairs.java) |
