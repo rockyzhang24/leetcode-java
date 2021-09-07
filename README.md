@@ -16,7 +16,7 @@ the entry to the table (as below), open the file to solve the problem, and commi
 
 A short demo is below
 
-![demo](./scripts/demo.mov)
+![demo](./scripts/demo.gif)
 
 ## Problem and Solutions
 
