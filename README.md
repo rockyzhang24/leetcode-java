@@ -11,14 +11,14 @@ For example:
 ```bash
 leet 75 https://leetcode.com/problems/sort-colors/ java m
 ```
-Then a file will be generated (like `75-Sort-Colors.java`). And the prompt will ask you whether you want to append
+Then the file will be generated (e.g., `75-Sort-Colors.java`). And the prompt will ask you whether you want to append
 the entry to the table (as below), open the file to solve the problem, and commit your work.
 
 A short demo is below
 
 ![demo](./scripts/demo.gif)
 
-## Problem and Solutions
+## Problems and Solutions
 
 | No. | Problem Title | Difficulty | Solution |
 |-----|---------------|------------|----------|
