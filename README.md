@@ -75,3 +75,4 @@
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | Medium | [java](./algorithms/java/71-Simplify-Path/SimplifyPath.java) |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Hard | [java](./algorithms/java/72-Edit-Distance/EditDistance.java) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [java](./algorithms/java/73-Set-Matrix-Zeroes/SetMatrixZeroes.java) |
+| 74 | [Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [java](./algorithms/java/74-Search-A-2d-Matrix/SearchA2dMatrix.java) |
