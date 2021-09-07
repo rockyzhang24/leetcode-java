@@ -1,5 +1,25 @@
 # LeetCode
 
+Run [leet](./scripts/leet) to generate the file automatically.
+
+```bash
+leet problem_number problem_link language difficulty
+```
+
+For example:
+
+```bash
+leet 75 https://leetcode.com/problems/sort-colors/ java m
+```
+Then a file will be generated (like `75-Sort-Colors.java`). And the prompt will ask you whether you want to append
+the entry to the table (as below), open the file to solve the problem, and commit your work.
+
+A short demo is below
+
+![demo](./scripts/demo.mov)
+
+## Problem and Solutions
+
 | No. | Problem Title | Difficulty | Solution |
 |-----|---------------|------------|----------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [java](./algorithms/java/1-Two-Sum/TwoSum.java) |
