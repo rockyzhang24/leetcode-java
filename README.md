@@ -1,6 +1,6 @@
 # LeetCode
 
-Run [leet](./scripts/leet) to generate the file automatically.
+Run [leet](./scripts/leet) to generate the file for solution automatically.
 
 ```bash
 leet problem_number problem_link language difficulty
@@ -11,8 +11,8 @@ For example:
 ```bash
 leet 75 https://leetcode.com/problems/sort-colors/ java m
 ```
-Then the file will be generated (e.g., `75-Sort-Colors.java`). And the prompt will ask you whether you want to append
-the entry to the table (as below), open the file to solve the problem, and commit your work.
+Then the file will be generated (e.g., `75-Sort-Colors.java`). And the prompt will ask you whether you want to 1) append
+the entry to the table, 2) open the file to solve the problem, 3) and commit your work.
 
 A short demo is below
 
@@ -96,3 +96,4 @@ A short demo is below
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Hard | [java](./algorithms/java/72-Edit-Distance/EditDistance.java) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [java](./algorithms/java/73-Set-Matrix-Zeroes/SetMatrixZeroes.java) |
 | 74 | [Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [java](./algorithms/java/74-Search-A-2d-Matrix/SearchA2dMatrix.java) |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [java](./algorithms/java/75-Sort-Colors/SortColors.java) |
