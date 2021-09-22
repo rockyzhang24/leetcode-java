@@ -98,3 +98,4 @@ A short demo is below
 | 74 | [Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [java](./algorithms/java/74-Search-A-2d-Matrix/SearchA2dMatrix.java) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [java](./algorithms/java/75-Sort-Colors/SortColors.java) |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [java](./algorithms/java/76-Minimum-Window-Substring/MinimumWindowSubstring.java) |
+| 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | [java](./algorithms/java/77-Combinations/Combinations.java) |
