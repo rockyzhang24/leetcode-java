@@ -99,3 +99,4 @@ A short demo is below
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [java](./algorithms/java/75-Sort-Colors/SortColors.java) |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [java](./algorithms/java/76-Minimum-Window-Substring/MinimumWindowSubstring.java) |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | [java](./algorithms/java/77-Combinations/Combinations.java) |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [java](./algorithms/java/78-Subsets/Subsets.java) |
