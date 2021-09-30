@@ -100,3 +100,4 @@ A short demo is below
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [java](./algorithms/java/76-Minimum-Window-Substring/MinimumWindowSubstring.java) |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | [java](./algorithms/java/77-Combinations/Combinations.java) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [java](./algorithms/java/78-Subsets/Subsets.java) |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [java](./algorithms/java/79-Word-Search/WordSearch.java) |
