@@ -102,3 +102,4 @@ A short demo is below
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [java](./algorithms/java/78-Subsets/Subsets.java) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [java](./algorithms/java/79-Word-Search/WordSearch.java) |
 | 80 | [Remove Duplicates From Sorted Array Ii](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [java](./algorithms/java/80-Remove-Duplicates-From-Sorted-Array-Ii/RemoveDuplicatesFromSortedArrayIi.java) |
+| 81 | [Search In Rotated Sorted Array Ii](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | [java](./algorithms/java/81-Search-In-Rotated-Sorted-Array-Ii/SearchInRotatedSortedArrayIi.java) |
