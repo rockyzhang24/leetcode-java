@@ -103,3 +103,4 @@ A short demo is below
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [java](./algorithms/java/79-Word-Search/WordSearch.java) |
 | 80 | [Remove Duplicates From Sorted Array Ii](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [java](./algorithms/java/80-Remove-Duplicates-From-Sorted-Array-Ii/RemoveDuplicatesFromSortedArrayIi.java) |
 | 81 | [Search In Rotated Sorted Array Ii](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | [java](./algorithms/java/81-Search-In-Rotated-Sorted-Array-Ii/SearchInRotatedSortedArrayIi.java) |
+| 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [java](./algorithms/java/83-Remove-Duplicates-From-Sorted-List/RemoveDuplicatesFromSortedList.java) |
