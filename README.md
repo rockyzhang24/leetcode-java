@@ -105,3 +105,4 @@ A short demo is below
 | 81 | [Search In Rotated Sorted Array Ii](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | [java](./algorithms/java/81-Search-In-Rotated-Sorted-Array-Ii/SearchInRotatedSortedArrayIi.java) |
 | 82 | [Remove Duplicates From Sorted List Ii](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | Medium | [java](./algorithms/java/82-Remove-Duplicates-From-Sorted-List-Ii/RemoveDuplicatesFromSortedListIi.java) |
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [java](./algorithms/java/83-Remove-Duplicates-From-Sorted-List/RemoveDuplicatesFromSortedList.java) |
+| 84 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [java](./algorithms/java/84-Largest-Rectangle-In-Histogram/LargestRectangleInHistogram.java) |
