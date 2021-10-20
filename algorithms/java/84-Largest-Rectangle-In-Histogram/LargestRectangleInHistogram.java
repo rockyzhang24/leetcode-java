@@ -66,7 +66,7 @@ class Solution {
 /*
  * Method-2: use a stack
  *
- * Run Time: 29ms, 64.65%
+ * Run Time: 17ms, 83.84%
  *
  * Explanation:
  * Use a stack to maintain a non-decreasing sequence (it stores indices). Once we find a bar lower than the top,
@@ -80,14 +80,13 @@ class Solution {
     int n = heights.length;
     Deque<Integer> stack = new ArrayDeque<>();
     int maxArea = 0;
-    for (int i = 0; i <= n;) {
-      if (stack.isEmpty() || i < n && heights[i] >= heights[stack.peekFirst()]) {
-        stack.offerFirst(i++);
-      } else {
+    for (int i = 0; i <= n; ++i) {
+      while (!stack.isEmpty() && (i == n || heights[i] < heights[stack.peekFirst()])) {
         int top = stack.pollFirst();
         int left = stack.isEmpty() ? -1 : stack.peekFirst();
         maxArea = Math.max(maxArea, heights[top] * (i - left - 1));
       }
+      stack.offerFirst(i);
     }
     return maxArea;
   }
