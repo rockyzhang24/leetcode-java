@@ -106,3 +106,4 @@ A short demo is below
 | 82 | [Remove Duplicates From Sorted List Ii](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | Medium | [java](./algorithms/java/82-Remove-Duplicates-From-Sorted-List-Ii/RemoveDuplicatesFromSortedListIi.java) |
 | 83 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [java](./algorithms/java/83-Remove-Duplicates-From-Sorted-List/RemoveDuplicatesFromSortedList.java) |
 | 84 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [java](./algorithms/java/84-Largest-Rectangle-In-Histogram/LargestRectangleInHistogram.java) |
+| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/discuss/29054/Share-my-DP-solution) | Hard | [java](./algorithms/java/85-Maximal-Rectangle/MaximalRectangle.java) |
